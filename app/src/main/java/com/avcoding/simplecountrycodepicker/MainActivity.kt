@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     val countryCodeData =
                         result.data?.extras?.parcelable(SimpleCountryCodePickerActivity.COUNTRY_CODE_ARGS) as CountryCodeData?
                     countryCodeData?.let {
-                        binding.tvFetchCode.text = "${it.name}\n${it.dial_code}\n${it.code}"
+                        binding.tvFetchCode.text = "Country Name :${it.name}\nCountry Dial Code: ${it.dial_code}\n Country Code${it.code}"
                     }
                 }
             }
