@@ -1,7 +1,8 @@
 # Simple-country-code-picker
 User-Friendly Interface: Our Country Code Picker provides a clean and intuitive user interface, making it easy for users to interact and select their desired country code effortlessly
-
-## How to import in Project
+## Sample 
+![](https://github.com/aahanverma00710/simple-country-code-picker/blob/main/art/Country%20Code.gif)
+## How to import into Project
 
 ### Step 1. Add the JitPack repository to your build file
 ```groovy
